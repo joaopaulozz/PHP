@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title> Checkbox </title>
+		<meta charset="UTF-8">
+		</head>
+		<body>
+			<center>
+				<h2 style="color: blue;"> FORMULARIO </h2>
+				<br>
+				<br>
+
+				<form name ="form" method="post" action="formulario.PHP">
+				<table>
+	
+					<tr>
+					<td><strong>Digite seu nome:</strong></td>
+					<td><strong><input type="text" name="name"></strong></td>
+					</tr>
+					<tr>
+					<td><strong>Digite sua cidade:</strong></td>
+					<td><strong><input type="text" name="cidade"></strong></td>
+					</tr>
+					<tr>
+					<td><strong>Digite seu endereço:</strong></td>
+					<td><strong><input type="text" name="end"></strong></td>
+					</tr>
+					<tr>
+					<td><strong>De que programas voce gosta?</strong></td>
+					</tr>
+					<tr>
+					<td><input type="checkbox" name="internet" checked="">Internet</td>
+					</tr>
+					<tr>
+					<td><input type="checkbox" name="grafico">Graficos</td>
+					</tr>
+					<tr>
+					<td><input type="checkbox" name="jogo">Jogos</td>
+					</tr>
+					<tr>
+					<td><input type="checkbox" name="negocio">Negocio</td>
+					</tr>
+					<tr>
+					<td><input type="checkbox" name="programacao">Programação</td>
+					</tr>
+					<tr>
+					<td><strong>Qual sua idade?</strong></td>
+					</tr>
+					<tr>
+					<td><input type="radio" name="i1">1 - 10</td>
+					</tr>
+					<tr>
+					<td><input type="radio" name="i2">11 - 30</td>
+					</tr>
+					<tr>
+					<td><input type="radio" name="i3">31 - 60</td>
+					</tr>
+					<tr>
+					<td><input type="radio" name="i4">61 ou mais</td>
+					</tr>
+					<tr>
+					<td><strong>Quantas pessoas residem na sua casa?</strong></td>
+						<td>
+						<select name="Opicional">
+						<option value="a">0</option>
+						<option value="b">1</option>
+						<option value="c">2</option>
+						<option value="d">3 ou mais</option>
+						</select>
+						</td>
+					</tr>
+					
+					</table>
+				
+					<strong> Comentarios adicionais:</strong>
+					<p>
+					<textarea name="obs" rows="5" cols="60"></textarea>
+					<br>
+		
+					<td><input type="submit" name="botao" value="Enviar Questionario"></td>
+					<td><input type="reset" name="botao" value="Limpar Questionario"></td>
+
+
+			 	</form>
+			</center>
+		</body>
+</html>
